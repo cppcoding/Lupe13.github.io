@@ -79,7 +79,7 @@ song.onended = function()
     drawRoulette();
 }
 
-roulette.addEventListener("click", e =>
+roulette.addEventListener("click", function()
 {
     if(song.paused && participants.length)
     {
